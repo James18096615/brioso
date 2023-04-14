@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/promedio.css">
+    <script src="JS/funciones.js"></script>
+    <title>Pagina Promedio</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <section>
+                <table>
+                    <tr>
+                        <td style="font-size: 30px;">Ingresar Nota 1</td>
+                        <td ><input type="number" name="nota1" id="nota1"></td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 30px;">Ingresar Nota 2</td>
+                        <td ><input type="number" name="nota2" id="nota2"></td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 30px;">Ingresar Nota 3</td>
+                        <td ><input type="number" name="nota3" id="nota3"></td>
+                    </tr>
+                    <tr>
+                        <td>Resultado :</td>
+                        <td><input type="text" name="resultado" id="res1" readonly="true" ></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="reset" name="reset" value="Reset" style="width: 100px;">
+                            <input type="button" name="calcular" value="calcular" style="width: 100px;" onclick=promedio()>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </form>
+</body>
+</html>
